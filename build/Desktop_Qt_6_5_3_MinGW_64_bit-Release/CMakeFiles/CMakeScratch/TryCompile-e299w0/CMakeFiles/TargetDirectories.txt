@@ -1,0 +1,3 @@
+C:/Users/onur/Documents/dali_gui_qml/build/Desktop_Qt_6_5_3_MinGW_64_bit-Release/CMakeFiles/CMakeScratch/TryCompile-e299w0/CMakeFiles/cmTC_d3da5.dir
+C:/Users/onur/Documents/dali_gui_qml/build/Desktop_Qt_6_5_3_MinGW_64_bit-Release/CMakeFiles/CMakeScratch/TryCompile-e299w0/CMakeFiles/edit_cache.dir
+C:/Users/onur/Documents/dali_gui_qml/build/Desktop_Qt_6_5_3_MinGW_64_bit-Release/CMakeFiles/CMakeScratch/TryCompile-e299w0/CMakeFiles/rebuild_cache.dir

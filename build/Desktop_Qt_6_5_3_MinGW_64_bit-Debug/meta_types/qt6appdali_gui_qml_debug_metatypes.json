@@ -1,0 +1,236 @@
+[
+    {
+        "classes": [
+            {
+                "className": "serialporthelper",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "refreshPorts",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "baudRate",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "dataBits",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "parity",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "stopBits",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "setPortSettings",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "connectPort",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "disconnectPort",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "data",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "sendData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "send_command_old_driver",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "appendToOldDriverResponseHistory",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "getParsedOldDriverValue",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "ports",
+                        "notify": "portsChanged",
+                        "read": "availablePorts",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QStringList",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "selectedPort",
+                        "notify": "selectedPortChanged",
+                        "read": "selectedPort",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setSelectedPort"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "baudRate",
+                        "notify": "settingsChanged",
+                        "read": "baudRate",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "dataBits",
+                        "notify": "settingsChanged",
+                        "read": "dataBits",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "name": "parity",
+                        "notify": "settingsChanged",
+                        "read": "parity",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "name": "stopBits",
+                        "notify": "settingsChanged",
+                        "read": "stopBits",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "name": "isConnected",
+                        "notify": "connectionChanged",
+                        "read": "isConnected",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "serialporthelper",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "portsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "selectedPortChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "settingsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "connectionChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "dataReceived",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "oldDriverResponseHistoryFull",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "serialporthelper.h",
+        "outputRevision": 68
+    }
+]

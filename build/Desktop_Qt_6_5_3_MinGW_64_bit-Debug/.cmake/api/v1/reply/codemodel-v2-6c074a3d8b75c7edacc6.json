@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c58498dfbf2c47ffa1c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dali_gui_qml",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-b15b4ad38ef781721cb7.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-4d1f6d48e53eb24c441a.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-b6559636558ebd485367.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-9f66fb366d01ed54b105.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdali_gui_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdali_gui_qml-Debug-22bc33d00741bb1a4f0e.json",
+					"name" : "appdali_gui_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdali_gui_qml_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdali_gui_qml_autogen-Debug-79d312c232a8a06460e1.json",
+					"name" : "appdali_gui_qml_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdali_gui_qml_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdali_gui_qml_autogen_timestamp_deps-Debug-207ca7a01eb788dcba87.json",
+					"name" : "appdali_gui_qml_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdali_gui_qml_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdali_gui_qml_qmlimportscan-Debug-afc0e25362c3479c5f4a.json",
+					"name" : "appdali_gui_qml_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdali_gui_qml_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdali_gui_qml_qmllint-Debug-5b2459abd9333ca7aa8a.json",
+					"name" : "appdali_gui_qml_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdali_gui_qml_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdali_gui_qml_qmllint_json-Debug-57d7292c23e711d5ddad.json",
+					"name" : "appdali_gui_qml_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdali_gui_qml_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdali_gui_qml_qmllint_module-Debug-99ebb44b10fec0a5699d.json",
+					"name" : "appdali_gui_qml_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdali_gui_qml_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdali_gui_qml_qmltyperegistration-Debug-c9adc2a8bed064f98a3f.json",
+					"name" : "appdali_gui_qml_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdali_gui_qml_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdali_gui_qml_tooling-Debug-4d3c7b8d1da8de2f78ce.json",
+					"name" : "appdali_gui_qml_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/onur/Documents/dali_gui_qml/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug",
+		"source" : "C:/Users/onur/Documents/dali_gui_qml"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

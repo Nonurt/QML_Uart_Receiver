@@ -1,0 +1,50 @@
+{
+    "classes": [
+        {
+            "className": "uart_old",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "command",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "sendCommand",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "uart_old",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "data",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "dataReceived",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "readData",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "uart_old.h",
+    "outputRevision": 68
+}

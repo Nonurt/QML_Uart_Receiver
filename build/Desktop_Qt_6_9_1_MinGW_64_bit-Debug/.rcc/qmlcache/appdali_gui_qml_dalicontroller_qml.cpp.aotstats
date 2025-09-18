@@ -1,0 +1,28 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 221,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 12
+                    }
+                ],
+                "filePath": "C:/Users/onur/Documents/dali_gui_qml/dalicontroller.qml"
+            }
+        ],
+        "moduleId": "dali_gui_qml(appdali_gui_qml)"
+    }
+]

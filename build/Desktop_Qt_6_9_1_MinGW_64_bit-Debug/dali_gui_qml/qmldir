@@ -1,0 +1,8 @@
+module dali_gui_qml
+typeinfo appdali_gui_qml.qmltypes
+prefer :/qt/qml/dali_gui_qml/
+Main 1.0 Main.qml
+D4i_dali_page 1.0 D4i_dali_page.qml
+D4i_uart_page 1.0 D4i_uart_page.qml
+D4i_uart_page_old 1.0 D4i_uart_page_old.qml
+
